@@ -1,0 +1,35 @@
+body{
+    width: 90%;
+    margin: auto;
+}
+#navbar{
+    display: flex;
+    justify-content: flex-end;
+    margin: 30px;
+}
+#navbar > div{
+    margin: 0 25px;
+}
+
+#menu{
+    width:100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    background: radial-gradient(rgb(216, 118, 62),rgba(40, 60, 175, 0.329));
+    padding: 10px;
+}
+#menu>div{
+    padding:20px;
+    box-shadow: 5px 5px 5px 5px rgba(63, 63, 63, 0.329);
+    background-color: aliceblue;
+    border-radius: 25px 25px 0 0;
+    -webkit-border-radius: 25px 25px 0 0;
+    -moz-border-radius: 25px 25px 0 0;
+    -ms-border-radius: 25px 25px 0 0;
+    -o-border-radius: 25px 25px 0 0;
+}
+img{
+    width: 100%;
+    
+}
